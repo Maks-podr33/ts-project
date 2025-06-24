@@ -1,0 +1,45 @@
+{
+  "name": "ts-project",
+  "version": "1.0.0",
+  "description": "\"Unit-test\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "jest --coverage",
+    "lint": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Maks-podr33/ts-project.git"
+  },
+  "keywords": [
+    "ts-project"
+  ],
+  "author": "Maks-podr33",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maks-podr33/ts-project/issues"
+  },
+  "homepage": "https://github.com/Maks-podr33/ts-project#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "@eslint/js": "^9.26.0",
+    "@stylistic/eslint-plugin-js": "^4.2.0",
+    "@types/jest": "^30.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.35.0",
+    "@typescript-eslint/parser": "^8.35.0",
+    "babel-jest": "^29.7.0",
+    "eslint": "^9.29.0",
+    "eslint-plugin-jest": "^28.11.0",
+    "globals": "^16.1.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "core-js": "^3.42.0",
+    "typescript-eslint": "^8.35.0"
+  }
+}
